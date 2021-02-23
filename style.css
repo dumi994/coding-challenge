@@ -1,0 +1,73 @@
+body{
+ background-image: url(background.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.container{
+  text-align: center;
+  width: 800px;
+  height:600px;
+  background-color: grey;
+  opacity: 0.6;
+  margin:auto;
+  box-sizing: border-box;
+  border-radius: 8px 8px 8px 8px;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+.testo-logo{
+  color:green;
+  font-size:45px;
+  text-align: center;
+}
+
+.navigatore{
+  background-color: green;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 90%;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.main{
+  text-align: left;
+  margin-left: 40px;
+}
+.contenuto{
+  display: inline-block;
+  width: auto;
+}
+
+h3, span{
+  display: inline-block;
+  color:white;
+}
+
+.roworange{
+  background-color: orange;
+  width:100px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.rowgreen{
+  background-color: green;
+  width:130px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.rowred{
+  background-color: red;
+  width:60px;
+  border-radius: 4px 4px 4px 4px;
+}
